@@ -1,0 +1,12 @@
+:root {
+    --rosso: #E43170;
+}
+*{
+    font-family: 'Fredoka', cursive;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
