@@ -5,7 +5,7 @@
     --fucsia: #EE82EE;
     --cielo: #1E90FF;
     --rosa: #FFC0CB;
-    --grigio: #FFC0CB;
+    --grigio: #D3D3D3;
     --verde: #228B22;
     --salmone: #F08080;
     --acqua: #20B2AA;
@@ -26,6 +26,10 @@
     display: flex;
     flex-direction: row;
     max-width:1250px;
+    width: 100%;
+}
+.reverse{
+    flex-direction: row-reverse;
 }
 header{
     background-color: var(--azzurro);
@@ -44,4 +48,75 @@ nav div:first-child{
 }
 nav div:last-child{
     margin-left: auto;
+}
+.blocco{
+    padding:30px 0;
+}
+.blu{
+    background-color: var(--blu);
+}
+.intro{
+    background-color: var(--fucsia);
+    height: 450px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+.pan-2{
+    height: 450px;
+    margin:auto;
+    justify-content: center;
+}
+.immagine-pan-2{
+    background-color: var(--cielo);
+    width:70%;
+}
+.testo-pan-2{
+    background-color: var(--rosa);
+    width:30%;
+}
+.grigio{
+    background-color: var(--grigio);
+}
+.outro{
+    background-color: var(--verde);
+    height: 700px;
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+}
+.nero{
+    background-color: var(--nero);
+    margin-bottom: 1px;
+}
+.link{
+    height: 500px;
+    max-width: 1250px;
+    width: 100%;
+    margin: auto;
+}
+.link div{
+    background-color: var(--acqua);
+    width:20%;
+    margin-right: 1px;
+}
+.link div:first-child{
+    background-color: var(--salmone);
+    width:30%;
+}
+.link div:last-child{
+    margin-right: 0;
+}
+footer{
+    background-color: var(--nero);
+    padding:20px 0 0 0;
+}
+.footer{
+    background-color: var(--verdino);
+    margin:auto;
+    justify-content: space-between;
+}
+.footer div{
+    background-color: var(--salmonefooter); 
+    margin:10px 0;  
 }
